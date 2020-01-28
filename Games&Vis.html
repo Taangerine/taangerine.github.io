@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Coding Challenge Refactoring: Metaballs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Saaheel's ICS4U Portfolio</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Modules & Projects</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Hackathon: HACKeD</h1>
+							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
+							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
+							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
+							how many times the canvas edges are hit.</p>
+							<h3> Impact on Me as a Student</h3>
+							<p></p>
+							<h3>How Will I use this to Continue Learning?</h3>
+							<p> </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Saaheel Muniir/Tangerine/Taangerine. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				var metaballsPic = document.getElementById("metaballs");
+            var oClick = function(e) {
+				metaballsPic.src = "images/Metaballs Still.png";
+				/*
+                var stashePic = document.getElementById("mustache-pic");  
+                stashePic.style.top = e.clientY + "px";
+                stashePic.style.left = e.clientX + "px";*/
+            };
+            metaballsPic.addEventListener("click", onClick);
+			</script>
+	</body>
+</html>
