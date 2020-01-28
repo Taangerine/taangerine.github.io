@@ -2,7 +2,7 @@
 This repository contains a Portfolio culminating all the work I have completed over the course of ICS4U.
 
 # Link to Portfolio
-The portfolio can be found [here](). It is made wih mainly HTML and CSS with some JavaScript.
+The portfolio can be found [here](https://taangerine.github.io/). It is made wih mainly HTML and CSS with some JavaScript.
 
 ## Contents of the Portfolio
 ### Home Page: 
