@@ -10,4 +10,6 @@ The portfolio can be found [here](https://taangerine.github.io/). It is made wih
 * 2. My Top 10
 * 3. About Me
 
-### 2. Modules & Projects: Complete List of Work Completed
+### 2. Modules & Projects
+  Includes a complete list of work done throughout the semester, including Khan Academy, freeCodeCamp and GitHub modules as well
+  as projects.
