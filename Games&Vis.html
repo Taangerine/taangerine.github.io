@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ICS4U Portfolio - Advanced JS: Games & Visualizations</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
+						
 					</ul>
 				</nav>
 			</header>
@@ -32,15 +32,31 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Hackathon: HACKeD</h1>
-							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
-							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
-							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
-							how many times the canvas edges are hit.</p>
+
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#NINE" class="button primary">Back to Top 10</a></li>
+							</ul>
+
+
+							<h1 class="major">Advanced JS: Games & Visualizations</h1>
+							<span class="image fit"><img id="GameVis" src="images/HoppyBeaver.gif" alt="" /></span>
+							<p class="topDescription">This module taught me more about the capabilities of JavaScript and it's use in creating basic games and interactive
+								programs.
+							</p>
 							<h3> Impact on Me as a Student</h3>
-							<p></p>
+							<p>This module focuses on making more interactive programs in the form of games such as basic side scrollers and memory games. It taught me about 
+								implementing game mechanics into code such as points and having objects that give or take points, or making  a character move with keypresses.
+								By using this I was able to learn more about JavaScript syntax and functions such as translate(), pushMatrix() and popMatrix(). One of the 
+								biggest appeals for computer science is the ability to make games and by using that as the motivation I was able to learn more about coding
+								and JavaScript. This has also taught me that sometimes having some type of motivation can be very helpful in getting you to learn something. By
+								applying something you like, you can make learning more enjoyable and more effective.
+							</p>
 							<h3>How Will I use this to Continue Learning?</h3>
-							<p> </p>
+							<p> Now that I've learned some of the basics of applying game mechanics into code, I can continue to learn about creating different types of games
+								and more complex games. I can continue to learn more and more about the capabilities of JavaScript and making programs that involve interacivity
+								and user input. I will use the strategy of connecting learning to something I enjoy to learn different things whether it be computer science
+								or anything else.
+							</p>
 						</div>
 					</section>
 
@@ -63,16 +79,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
