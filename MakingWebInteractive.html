@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ICS4U Portfolio - HTML/JS: Making Webpages Interactive</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -32,15 +31,30 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Hackathon: HACKeD</h1>
-							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
-							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
-							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
-							how many times the canvas edges are hit.</p>
+
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#TEN" class="button primary">Back to Top 10</a></li>
+							</ul>
+
+
+							<h1 class="major">HTML/JS: Making Webpages Interactive</h1>
+							<span class="image fit"><img id="WebInteract", src="images/MakingWebpagesInteractive.gif" alt="" /></span>
+							<p class="topDescription">This module had me learn about another important part of web development, interactivity. By referencing the DOM, I learned
+								about using JavaScript to make a webpage interactive and make it better for users.
+							</p>
 							<h3> Impact on Me as a Student</h3>
-							<p></p>
+							<p>This helped me to learn more about an important aspect of web development. Interactivity. This was done by using the Document Object Model or DOM.
+								The module used different access methods to change elements of an already made webpage using JavaScript and went further by using the DOM to have
+								the webpage react to user events and even create animations. I learned of the connections between HTML, CSS and JavaScript through this module.
+								I gained an understanding of the importance of making webpages interactive as it enhances the user experience which is the main objective in 
+								creating webpages.
+							</p>
 							<h3>How Will I use this to Continue Learning?</h3>
-							<p> </p>
+							<p> Having learned the basics of adding interactivity in webpages I can further learn about the different ways to make a webpage interactive as well as
+								the possibilites with interactivity. For example, I can expand my knowledge by using a library such as jQuery which is good for adding interactivity
+								for webpages and doing it in a different way. With the knowledge I've gained from this module I can make better webpages and further myself in the 
+								field of web development.
+							</p>
 						</div>
 					</section>
 
@@ -63,16 +77,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
