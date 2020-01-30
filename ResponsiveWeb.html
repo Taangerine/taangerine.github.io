@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ICS4U Portfolio - Responsive Web Design</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -32,15 +31,31 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Hackathon: HACKeD</h1>
-							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
-							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
-							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
-							how many times the canvas edges are hit.</p>
+
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#SEVEN" class="button primary">Back to Top 10</a></li>
+							</ul>
+
+							<h1 class="major">Responsive Web Design</h1>
+							<span class="image fit"><img id="ResWeb", src="images/WebDesign.gif" alt="" /></span>
+							<p class="topDescription">This module taught me HTML and CSS from the basics of creating elements to the more detailed aspects to fine tune a website.
+								
+							</p>
 							<h3> Impact on Me as a Student</h3>
-							<p></p>
+							<p>The main thing that this taught me was HTML and CSS and how to build a webpage. I learned of many different things involving web development such as 
+								media queries, flexboxes and grids. I also learned of different practices and habits when developing webpages such as providing alt text on images.
+								One of the things I liked about freeCodeCamp is that its lessons were short, simple and to the point. It taught me what I needed to know without
+								adding too much unnecessary explanations that would bore me or not make me want to continue, and I learned most of the HTML and CSS syntax I know
+								from this module and it's easy for me to refer back to it when I forget something. From this I learned that a lot of the times, short and simple is
+								the most effective teaching method.
+							</p>
 							<h3>How Will I use this to Continue Learning?</h3>
-							<p> </p>
+							<p> I will use what I've gained from this module to help me learn more about the wide world of web development. Now that I know the fundamentals, I'll
+								be able to expand on it and gain new knowledge about web development, such as making pages interactive. After completing this module, I have created 
+								a webpage as part of the Hackathon assignment and this is portfolio is also a webpage. Similar to how I have used what I've learned from this module
+								to help make these webpages, I will continue to do the same and to expand my horizons. By also realizing the benefits of short and simple, if I have
+								to teach someone something, I will keep that in mind that sometimes things are easier to understand when they're taught in a to the point matter.
+							</p>
 						</div>
 					</section>
 
@@ -63,16 +78,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
