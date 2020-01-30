@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ISC4U Portfolio - Coding Challenge Refactoring: Metaballs</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						
 					</ul>
 				</nav>
 			</header>
@@ -32,6 +32,11 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
+						
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#ONE" class="button primary">Back to Top 10</a></li>
+							</ul>
+					
 							<h1 class="major">Coding Challenge Refactoring: Metaballs</h1>
 							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
 							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
@@ -40,18 +45,24 @@
 							<h3> Impact on Me as a Student</h3>
 							<p>This project helped me learn a few things. Firstly, it helped me to learn more about and understand classes, objects, functions and object inheritance.
 								These were certain large structures of the code that I was dealing with. It taught me a new math concept, Isosurfaces as well as the "Metaball" object
-								as its function as an isosurface. I learned of their applications to the real world. It also impacted me by giving me a further understanding of
+								as its function as an isosurface. It taught me more about the application of mathematical concepts and functions to code. It also impacted me by giving me a further understanding of
 								object-oriented programming and using someone else's code to create something unique of your own. In object-oriented programming, you're creating 
 								data structures and the operations that run within them. With this challenge, I couldn't simply change a few values and be done. I had to refactor the code
 								so that something within the structure of the code would be different and would be running different operations within them. In order to accomplish this I 
 								had to try and learn and understand the code and concepts behind them to the best of my abilities. This translates to my abilities of a student as in order
-								to do well I have to be able to learn what is being taught and 
+								to do well I have to be able to learn what is being taught. I learned more about how to program in an object-oriented way by creating and altering
+								data structures and the functions that run within them which is what object-oriented programming is about.
 							</p>
 							<h3>How Will I use this to Continue Learning?</h3>
 							<p> I will use this to continue to learn about object-oriented programming and the capabilities of computer science. The enhancement of my knowledge in classes
-								and objects will help me to continue to code new things and to creatively code and in an object-oriented way. The concept of isosurfaces also taught me more
+								and objects will help me to continue to code new things creatively and in an object-oriented way. The concept of isosurfaces also taught me more
 								about the applications of functions and how they are used in a way I hadn't previously known of and I can use this to continue learning about functions
-								and their applications to mathematics and computer science and graphics.
+								and their applications to mathematics and computer science and graphics. This will allow me to better understand the link between mathematics and
+								computer science.
+							</p>
+							<h3>Tweeting Dan Shiffman</h3>
+							<p>As part of an aspect of the project, we created a Twitter account and tweeted the original creator of the challenge, Dan Shiffman AKA The Coding 
+								Train, with our creative refactorings. You can find it <a style="color:rgb(0, 110, 255)"href="https://twitter.com/ColoredMeatball/with_replies">here!</a>
 							</p>
 						</div>
 					</section>
@@ -75,16 +86,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
