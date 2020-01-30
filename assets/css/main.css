@@ -186,6 +186,10 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+	.topDescription{
+		text-align: center;
+	}
+
 	h1 {
 		font-size: 2.75em;
 	}
@@ -194,6 +198,7 @@ input, select, textarea {
 			margin: 0 0 1.3em 0;
 			position: relative;
 			padding-bottom: 0.35em;
+			text-align: center;
 		}
 
 			h1.major:after {
@@ -217,6 +222,34 @@ input, select, textarea {
 	h2 {
 		font-size: 1.75em;
 	}
+
+		h2.major {
+			margin-top: 50px;
+			position: relative;
+			padding-bottom: 0.35em;
+			text-align: center;
+		}
+
+		h2.major:after {
+			background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				-moz-transition: max-width 0.2s ease;
+				-webkit-transition: max-width 0.2s ease;
+				-ms-transition: max-width 0.2s ease;
+				transition: max-width 0.2s ease;
+				border-radius: 0.2em;
+				bottom: 0;
+				content: '';
+				height: 0.05em;
+				position: absolute;
+				right: 0;
+				display: flex;
+				justify-content: center;
+				width: 30%;
+				right:505px;
+		}
 
 	h3 {
 		font-size: 1.1em;
@@ -327,6 +360,11 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	figcaption {
+		font-size: 1.3em;
+		text-align: center;
+		color: white;
+	}
 /* Row */
 
 	.row {
@@ -398,6 +436,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			margin-top: 50px;
 		}
 
 		.row > .off-4 {
@@ -2517,6 +2556,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+			margin-left:20px;
 		}
 
 		.icon.major {
@@ -2599,6 +2639,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		#imageYes {
+			display: block;
+			margin: 0 0 2em 0;
+			width: 50%;
+			height: 10%;
+		}
 			.image.fit img {
 				width: 100%;
 			}
@@ -2612,7 +2658,36 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
+		#introJS {
+			display:block;
+			margin: 0 0 2em 0;
+			align-content: center;
+			height: 650px;
+		}
 
+		#GameVis {
+			display: block;
+			margin: 0 0 2em 0;
+			align-content: center;
+			height: 500px;
+			opacity: 90%;
+		}
+
+		#WebInteract {
+			display: block;
+			margin: 0 0 2em 0;
+			align-content: center;
+			height: 700px;
+			opacity: 90%;
+		}
+
+		#ResWeb {
+			display: block;
+			margin: 0 0 2em 0;
+			align-content: center;
+			height: 700px;
+		}
 /* List */
 
 	ol {
@@ -2675,6 +2750,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
 	}
 
 		ul.actions li {
@@ -2862,6 +2938,12 @@ input, select, textarea {
 
 /* Section/Article */
 
+	#backButton {
+		margin-left:-200px;
+		margin-top:-70px;
+		
+	}
+	
 	section.special, article.special {
 		text-align: center;
 	}
