@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ICS4U Portfolio - Intro to JS: Drawing & Animation</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
+						
 					</ul>
 				</nav>
 			</header>
@@ -32,15 +32,32 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Hackathon: HACKeD</h1>
-							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
-							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
-							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
-							how many times the canvas edges are hit.</p>
+							
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#FIVE" class="button primary">Back to Top 10</a></li>
+							</ul>
+
+							<h1 class="major">Intro to JS: Drawing & Animation</h1>
+							<span class="image fit"><img id="introJS", src="images/Tomat.gif" alt="" /></span>
+							<p class="topDescription">This module taught me about JavaScript and the basics of it as I didn't have much prior knowledge. It taught me in the
+								context of making drawings and animations which made it more appealing to dive into and learn how to create.
+							</p>
 							<h3> Impact on Me as a Student</h3>
-							<p></p>
+							<p> I learned about JavaScript syntax in this module which is a good contribution to my abilities and knowledge as a programmer. I was able to learn
+								of different JavaScript practices and certain logic such as ternary, switches and loops. One thing I learned about was objects and object inheritance
+								which I found quite useful as it helped me later on with the summative project where I had to refactor a coding challenge in an object-oriented way. 
+								The module also helped me learn about creating graphics and visualizing things with Javascript. Another thing I learned is that by connecting something
+								with something fun makes it more enjoyable and sometimes easier to learn which was done here as JavaScript was thought by using drawings and animations
+								as the context.
+							</p>
 							<h3>How Will I use this to Continue Learning?</h3>
-							<p> </p>
+
+							<p> I will continue to use this in order to create more programs with JavaScript. Using libraries such as p5.js I will try to learn more about
+								creating visual programs with JavaScript. I will use what I've learned about objects and inheritance in order to learn more about object-oriented 
+								programming and how to be a more creative coder. I will be mindful of the practices I was taught here and to have clean, well commented, readable code.
+								By completing this module that teaches the groundwork, I can build off of it in order to learn more about JavaScript and coding as a whole to become a better
+								programmer. I will try and find ways to connect things I'm learning with fun in order to better learn the concept and make it more enjoyable.
+							</p>
 						</div>
 					</section>
 
@@ -63,16 +80,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
