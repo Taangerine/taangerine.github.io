@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Coding Challenge Refactoring: Metaballs</title>
+		<title>Saaheel's ICS4U Portfolio - HTML/JS: Making Webpages Interactive with jQuery</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,8 +20,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Modules & Projects</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="Modules & Projects.html" class="active">Modules & Projects</a></li>
+						
 					</ul>
 				</nav>
 			</header>
@@ -32,15 +32,29 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Hackathon: HACKeD</h1>
-							<span class="image fit" id="metaballs"><img src="images/Metaballs.gif" alt="" /></span>
-							<p class="topDescription">I took the Coding Challenge of Metaballs from The Coding Train (Dan Shiffman) and refactored it in an
-							object oriented way. When the metaballs collide with the edges of the canvas, they speed up. A counter is also at the top of the canvas which displays
-							how many times the canvas edges are hit.</p>
+
+							<ul class="actions" id="backButton">
+								<li><a href="index.html#FOUR" class="button primary">Back to Top 10</a></li>
+							</ul>
+
+							<h1 class="major">HTML/JS: Making Webpages Interactive with jQuery</h1>
+							<span class="image fit"><img src="images/jQuery2.jpg" alt="" /></span>
+							<p class="topDescription">This module taught me about the Javascript library known as jQuery. I learned how to use it for a variety of tasks in order
+								to make webpages interactive. This involved DOM access and modification, function calls, collection looping, form processing and animations.
+							</p>
 							<h3> Impact on Me as a Student</h3>
-							<p></p>
+							<p>This module helped to of course learn about jQuery and how to use it as well as some of its different possibilites. I learned of its uses in responding to user events with 
+								event listeners and processing forms. It taught me about libraries and that there are many external libraries out there that maximize efficiency and 
+								bring new capabilities to my program. jQuery specifically also gave me a further understanding of how to make a webpage interactive 
+								and how to utilize the DOM. </p>
+
 							<h3>How Will I use this to Continue Learning?</h3>
-							<p> </p>
+
+							<p> Whether or not I use the jQuery library, I will continue to be aware of external libraries and that they are made to be helpful and can
+								make my code more efficient and provide more functionality to my programs. In a broader sense, the availability of external resources is something that
+								can be applied to other works and academics. The use of external resources isn't necessarily a bad thing and doesn't mean your work isn't creative or is
+								unoriginal but can enhance it and make it more efficient.
+							</p>
 						</div>
 					</section>
 
@@ -63,16 +77,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var metaballsPic = document.getElementById("metaballs");
-            var oClick = function(e) {
-				metaballsPic.src = "images/Metaballs Still.png";
-				/*
-                var stashePic = document.getElementById("mustache-pic");  
-                stashePic.style.top = e.clientY + "px";
-                stashePic.style.left = e.clientX + "px";*/
-            };
-            metaballsPic.addEventListener("click", onClick);
-			</script>
 	</body>
 </html>
